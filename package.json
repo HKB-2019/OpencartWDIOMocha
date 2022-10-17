@@ -1,0 +1,23 @@
+{
+  "name": "opencart",
+  "version": "1.0.0",
+  "description": "WDIO Selenium Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run wdio",
+    "wdio": "wdio run wdio.conf.js"
+  },
+  "author": "Harry Balogun",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@wdio/allure-reporter": "^7.25.1",
+    "@wdio/cli": "^7.25.1",
+    "@wdio/local-runner": "^7.25.1",
+    "@wdio/mocha-framework": "^7.25.1",
+    "@wdio/spec-reporter": "^7.25.1",
+    "allure-commandline": "^2.18.1",
+    "chromedriver": "^106.0.1",
+    "wdio-chromedriver-service": "^8.0.0"
+  }
+}
